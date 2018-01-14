@@ -1,7 +1,11 @@
-use warnings;
-use strict;
+# This code is part of distribution Geo::ISO19139.  Meta-POD processed with
+# OODoc into POD and HTML manual-pages.  See README.md
+# Copyright Mark Overmeer.  Licensed under the same terms as Perl itself.
 
 package Geo::ISO19139;
+
+use warnings;
+use strict;
 
 use Log::Report 'geo-iso', syntax => 'SHORT';
 use XML::Compile::Cache ();

@@ -7,6 +7,10 @@ someone else.
 version 0.11:
 	- do not use /bin/pwd in t/pod.t
 	- repair used versions report
+	- removed install dependency on Test::POD
+	- upgrade schema's to v2012-07-13 of update 20070417
+	- warn that the module is not actively used, but maintained
+	- move to GIT and GitHUB
 
 version 0.10: Thu Jun 12 14:29:30 CEST 2008
 	initial release

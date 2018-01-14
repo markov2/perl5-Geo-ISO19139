@@ -1,8 +1,12 @@
-use warnings;
-use strict;
+# This code is part of distribution Geo::ISO19139.  Meta-POD processed with
+# OODoc into POD and HTML manual-pages.  See README.md
+# Copyright Mark Overmeer.  Licensed under the same terms as Perl itself.
 
 package Geo::ISO19139::2005;
 use base 'Geo::GML';
+
+use warnings;
+use strict;
 
 use Geo::ISO19139::Util qw/:2005/;
 
