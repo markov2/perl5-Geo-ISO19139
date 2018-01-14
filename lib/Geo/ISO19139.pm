@@ -34,6 +34,7 @@ application base.  On the moment, it is just a schema container, which
 enables you to read and write XML which use these schemas.
 
 Name-spaces and Components:
+
   GMD ISO19115 Metadata
   GSS ISO19107 Spatial Schema, realized by GML
   GTS ISO19108 Temporal Schema
@@ -41,10 +42,13 @@ Name-spaces and Components:
   GCO ISO19118 Encoding, basic types
   GMX Extended Geographic Metadata
 
+B<WARNING:> I have not used this module for many years.  It probably
+works (or is close to working).  You will get support.
+
 =chapter METHODS
 
 =section Constructors
-=c_method new 'READER'|'WRITER'|'RW', OPTIONS
+=c_method new 'READER'|'WRITER'|'RW', %options
 
 This C<new()> method will instantiate a M<Geo::ISO19139::2005> object,
 when called with the required "version => 2005" option.  Other OPTIONS

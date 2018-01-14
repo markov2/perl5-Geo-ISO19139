@@ -43,7 +43,7 @@ the spec.  More in M<Geo::ISO19139>
 
 =section Constructors
 
-=c_method new 'READER'|'WRITER'|'RW', OPTIONS
+=c_method new 'READER'|'WRITER'|'RW', %options
 
 =option  version DEFAULT
 =default version 2005
@@ -70,6 +70,8 @@ sub init($)
     $self->importDefinitions(\@xsd);
     $self;
 }
+
+#-------------
 
 =section Accessors
 

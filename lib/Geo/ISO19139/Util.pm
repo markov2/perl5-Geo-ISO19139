@@ -10,8 +10,8 @@ our @r2005   = qw/NS_GCO_2005 NS_GMD_2005 NS_GMX_2005
 our @EXPORT_OK = ( @r2005 );
 
 our %EXPORT_TAGS =
- ( 2005 => \@r2005
- );
+  ( 2005 => \@r2005
+  );
 
 =chapter NAME
 Geo::ISO19139::Util - iso-19139 useful constants
