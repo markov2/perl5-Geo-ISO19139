@@ -4,7 +4,7 @@ use 5.008;
 
 WriteMakefile
  ( NAME	 	=> 'Geo::ISO19139'
- , VERSION	=> '0.10'
+ , VERSION	=> '0.11'
  , PREREQ_PM    =>
    { XML::Compile         => 0.84
    , XML::Compile::Tester => 0.02
@@ -13,7 +13,6 @@ WriteMakefile
    , Geo::GML             => '0.12'
 
    , Test::More           => 0.54
-   , Test::Pod            => '1.00'
    }
 
  , EXE_FILES    => []

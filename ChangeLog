@@ -4,5 +4,9 @@
 All changes made by Mark Overmeer, unless explicitly assigned to
 someone else.
 
+version 0.11:
+	- do not use /bin/pwd in t/pod.t
+	- repair used versions report
+
 version 0.10: Thu Jun 12 14:29:30 CEST 2008
 	initial release

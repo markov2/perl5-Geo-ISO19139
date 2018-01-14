@@ -41,4 +41,4 @@ lib/Geo/ISO19139/xsd/2005/gts/temporalObjects.xsd
 t/01use.t
 t/10r2005.t
 t/11r2005.t
-t/pod.t
+xt/99pod.t
