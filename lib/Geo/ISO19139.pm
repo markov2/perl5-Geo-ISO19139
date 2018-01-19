@@ -44,6 +44,7 @@ Name-spaces and Components:
   GTS ISO19108 Temporal Schema
   GSR ISO19111 Spatial Reference Schema, realized by GML
   GCO ISO19118 Encoding, basic types
+  GCO ISO19136 GML
   GMX Extended Geographic Metadata
 
 B<WARNING:> I have not used this module for many years.  It probably

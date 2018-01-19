@@ -1,4 +1,4 @@
-# ISO::19139
+# Geo-ISO19139
 
   * My extended documentation: <http://perl.overmeer.net/CPAN/>
   * Development via GitHub: <https://github.com/markov2/perl-Geo-ISO19139>
@@ -28,7 +28,7 @@ On github, you can find the processed version for each release.  But the
 better source is CPAN; to get it installed simply run:
 
 ```sh
-   cpan -i ISO::19139
+   cpan -i Geo::ISO19139
 ```
 
 ## Contributing
