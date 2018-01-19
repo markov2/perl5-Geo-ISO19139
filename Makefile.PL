@@ -4,13 +4,13 @@ use 5.010;
 
 WriteMakefile
   ( NAME	 	 => 'Geo::ISO19139'
-  , VERSION	     => '0.11'
+  , VERSION	     => '0.12'
   , PREREQ_PM    =>
    { XML::Compile         => 0.84
    , XML::Compile::Tester => 0.02
    , XML::Compile::Cache  => 0.10
    , Log::Report          => 0.19
-   , Geo::GML             => 0.17
+   , Geo::GML             => 0.18
 
    , Test::More           => 0.54
    }
