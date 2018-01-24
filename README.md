@@ -1,7 +1,7 @@
 # Geo-ISO19139
 
   * My extended documentation: <http://perl.overmeer.net/CPAN/>
-  * Development via GitHub: <https://github.com/markov2/perl-Geo-ISO19139>
+  * Development via GitHub: <https://github.com/markov2/perl5-Geo-ISO19139>
   * Download from CPAN: <ftp://ftp.cpan.org/pub/CPAN/authors/id/M/MA/MARKOV/>
   * Indexed from CPAN: <http://search.cpan.org/~markov/Geo-ISO19139/>
     and <https://metacpan.org/release/Geo-ISO19139>

@@ -18,7 +18,8 @@ WriteMakefile
   , EXE_FILES    => []
   , AUTHOR       => 'Mark Overmeer'
   , ABSTRACT     => 'Geography metadata standard'
-  , LICENSE      => 'perl'
+  , LICENSE      => 'perl_5'
+
   , META_MERGE =>
       { 'meta-spec' => { version => 2 }
       , resources  =>
@@ -27,9 +28,9 @@ WriteMakefile
               , url  => 'https://github.com/markov2/perl5-Geo-ISO19139.git'
               , web  => 'https://github.com/markov2/perl5-Geo-ISO19139'
               }
-          }
           , homepage => 'http://perl.overmeer.net/CPAN/'
           , license  => [ 'http://dev.perl.org/licenses/' ]
+          }
       }
   );
 
